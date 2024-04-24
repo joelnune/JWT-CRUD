@@ -10,7 +10,7 @@ export class Movie {
     title:string;
 
     @Column({type: 'text'})
-    decription: string;
+    description: string;
 
     @Column({type: 'date'})
     release:Date = new Date();

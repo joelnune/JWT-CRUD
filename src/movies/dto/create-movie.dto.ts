@@ -1,6 +1,6 @@
 export class CreateMovieDto {
-    Title: string;
-    Description: string;
-    Genre: string;
-    Duration: string;
+    title: string;
+    description: string;
+    release: Date = new Date();
+    genre: string;
 }
