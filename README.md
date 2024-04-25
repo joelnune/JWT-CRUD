@@ -1,73 +1,73 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+# JWT-CRUD
+
+
+ Status do Projeto: Em desenvolvimento ⚠️
+
+## Pacotes utilizados neste projeto:
+
+[Nestjs Framework](https://docs.nestjs.com/) - Tenha uma aplicação nodejs+TypeScript em segundos.
+
+[Postgresql](https://www.postgresql.org/) - Banco relacional e resilente
+
+## Projeto
+
+O JWT-CRUD É uma API que permite o usuário fazer operações basicas em um banco de dados de cadastro de filmes, possuindo autenticação via JWT.
+
+## Instalaçao
+
+> Este projeto requer [Node.js](https://nodejs.org/) v18.14+ para rodar.
+>
+> Instale as dependencias e execute o app:
+
+```sh
+npm i
+npm run start
+```
+## Como usar
+1. Faça o login via postman ou insomnia com os parametros indicados na imagem.
+![111](https://github.com/joelnune/JWT-CRUD/assets/91698993/401d4db2-da35-4d02-912e-c66cae3e39f0)
+
+2.Cole o Token gerado anteriormente no campo indicado
+![2222](https://github.com/joelnune/JWT-CRUD/assets/91698993/90970a7b-e62f-4fdb-9d4f-d42e94293436)
+
+Rotas:
+
+[GET] /movies
+Exibir lista de filmes
+
+[GET] /movies/:id
+Buscar filme especifico
+
+[POST] /movies
+Criar filme
+#Exemplo:
+    {
+        "release": "2024-02-02",
+        "id": 13,
+        "title": "Filme legal de Drama",
+        "description": "Muito dramatico",
+        "genre": "Drama"
+    }
+
+[PATCH] /movies:id
+Atualizar filme
+#Exemplo:
+    {
+        "release": "2024-02-02",
+        "id": 13,
+        "title": "Filme legal de Drama",
+        "description": "Muito dramatico e atualizado",
+        "genre": "Drama"
+    }
+
+[DELETE] /movies/:id
+Deletar filme
+
+
+License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
 </p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
