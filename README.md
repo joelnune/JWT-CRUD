@@ -24,43 +24,43 @@ npm i
 npm run start
 ```
 ## Como usar
-1. Faça o login via postman ou insomnia com os parametros indicados na imagem.
+1. Faça o login via postman ou insomnia com os parametros indicados na imagem.  
 ![111](https://github.com/joelnune/JWT-CRUD/assets/91698993/401d4db2-da35-4d02-912e-c66cae3e39f0)
 
-2.Cole o Token gerado anteriormente no campo indicado
+2.Cole o Token gerado anteriormente no campo indicado  
 ![2222](https://github.com/joelnune/JWT-CRUD/assets/91698993/90970a7b-e62f-4fdb-9d4f-d42e94293436)
 
-Rotas:
+# Rotas:
 
-[GET] /movies
+### [GET] /movies  
 Exibir lista de filmes
 
-[GET] /movies/:id
+### [GET] /movies/:id  
 Buscar filme especifico
 
-[POST] /movies
+### [POST] /movies
 Criar filme
-#Exemplo:
-    {
-        "release": "2024-02-02",
-        "id": 13,
-        "title": "Filme legal de Drama",
-        "description": "Muito dramatico",
-        "genre": "Drama"
-    }
+### Exemplo:  
+    {  
+        "release": "2024-02-02",  
+        "id": 13,  
+        "title": "Filme legal de Drama",  
+        "description": "Muito dramatico",  
+        "genre": "Drama"  
+    }  
 
-[PATCH] /movies:id
+### [PATCH] /movies:id
 Atualizar filme
-#Exemplo:
-    {
-        "release": "2024-02-02",
-        "id": 13,
-        "title": "Filme legal de Drama",
-        "description": "Muito dramatico e atualizado",
-        "genre": "Drama"
-    }
-
-[DELETE] /movies/:id
+### Exemplo:  
+    {  
+        "release": "2024-02-02",  
+        "id": 13,  
+        "title": "Filme legal de Drama",  
+        "description": "Muito dramatico e atualizado",  
+        "genre": "Drama"  
+    }  
+  
+### [DELETE] /movies/:id
 Deletar filme
 
 
