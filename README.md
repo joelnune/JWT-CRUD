@@ -1,17 +1,25 @@
 # JWT-CRUD
 
-
  Status do Projeto: Em desenvolvimento ⚠️
+<br/>
+## Projeto
+
+O JWT-CRUD É uma API que permite o usuário fazer operações basicas em um banco de dados de cadastro de filmes, possuindo autenticação via JWT.  
+<br/>
+
+## URL da API:  
+> https://jwt-crud-ebcf.onrender.com/
+
+<br/>
+
 
 ## Pacotes utilizados neste projeto:
 
 [Nestjs Framework](https://docs.nestjs.com/) - Tenha uma aplicação nodejs+TypeScript em segundos.
 
-[Postgresql](https://www.postgresql.org/) - Banco relacional e resilente
+[Postgresql](https://www.postgresql.org/) - Banco relacional e resilente.
 
-## Projeto
-
-O JWT-CRUD É uma API que permite o usuário fazer operações basicas em um banco de dados de cadastro de filmes, possuindo autenticação via JWT.
+<br/>  
 
 ## Instalaçao
 
@@ -23,12 +31,12 @@ O JWT-CRUD É uma API que permite o usuário fazer operações basicas em um ban
 npm i
 npm run start
 ```
-## Como usar
+## Como usar  
 1. Faça o login via postman ou insomnia com os parametros indicados na imagem.  
-![111](https://github.com/joelnune/JWT-CRUD/assets/91698993/401d4db2-da35-4d02-912e-c66cae3e39f0)
+![111](https://github.com/joelnune/JWT-CRUD/assets/91698993/401d4db2-da35-4d02-912e-c66cae3e39f0)  
 
-2.Cole o Token gerado anteriormente no campo indicado  
-![2222](https://github.com/joelnune/JWT-CRUD/assets/91698993/90970a7b-e62f-4fdb-9d4f-d42e94293436)
+2. Cole o Token gerado anteriormente no campo indicado  
+![2222](https://github.com/joelnune/JWT-CRUD/assets/91698993/90970a7b-e62f-4fdb-9d4f-d42e94293436)  
 
 # Rotas:
 
